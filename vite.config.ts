@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/bfhl': 'http://localhost:5000'
+      '/bfhl': 'https://backend-production-4e77.up.railway.app'
     }
   }
 })
